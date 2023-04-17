@@ -19,6 +19,6 @@ const p = document.createElement("p");
 const h1 = document.createElement("h1");
 // const btn = document.createElement("button");
 
-h1.textContent = "what the fuck";
+h1.textContent = "what the heck";
 // btn.textContent = 'menu'
 html.appendChild(h1)
