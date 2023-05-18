@@ -13,9 +13,13 @@
     const btn2 = document.createElement("button");
 
 
-    btn.textContent = 'menu'
-    btn1.textContent = 'contact'
-    btn2.textContent = 'sub'
+    btn.textContent = 'Home'
+    btn1.textContent = 'Menu'
+    btn2.textContent = 'Contact'
+
+    btn.addEventListener('click', () => {
+      create
+    })
 
     add.append(btn, btn1, btn2)
 
